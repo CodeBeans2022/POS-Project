@@ -1,0 +1,19 @@
+
+img{
+    border-radius: 5px;
+    width: 18rem;
+    height: 350px;
+    object-fit: cover;
+}
+
+button{
+    height: 40px;
+}
+
+.card{
+    margin-right: 15px;
+}
+
+
+
+

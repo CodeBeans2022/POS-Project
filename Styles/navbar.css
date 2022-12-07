@@ -1,0 +1,74 @@
+/* * {
+  overflow: hidden;
+} */
+
+body {
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mynav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+  }
+  
+  .mynav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+  }
+  
+  .mynav {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+  }
+  
+  .navbar-nav {
+    display: none;
+    width: 100%;
+    height: 50%;
+    margin: auto 0;
+  }
+  
+  .navbar-nav a {
+    text-decoration: none;
+    color: white;
+    height: 10px;
+  }
+  
+  .navbar-nav li {
+    padding: 20px;
+  }
+  
+  .navbar-nav a:hover {
+    background-color: white;
+    color: red;
+  }
+
+  @media screen and (min-width: 960px) {
+
+    .navbar-toggler {
+      display: none;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 960px) {
+  
+    .navbar {
+      overflow: hidden;
+    }
+  
+    .mynav {
+      display: none;
+    }
+  
+    .navbar-nav {
+      display: block;
+    }
+  }

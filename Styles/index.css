@@ -1,0 +1,14 @@
+.carousel img {
+  height: 225px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.landing {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.landing .col{
+padding: 0;
+}

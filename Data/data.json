@@ -1,0 +1,93 @@
+[
+    
+{
+    "id": 1,
+    "price": 80,
+    "bookTitle": "X-Men",
+    "universe": "Marvel",
+    "image": "https://i.postimg.cc/QdC8W5Gm/X-Men.jpg",
+    "discription": ""
+},
+
+{
+    "id": 2,
+    "price": 120,
+    "bookTitle": "Avengers",
+    "universe": "Marvel",
+    "image": "https://i.postimg.cc/gkDjhmwz/Avengers.jpg",
+    "discription": ""
+},
+
+{
+    "id": 3,
+    "price": 80,
+    "bookTitle": "Spider-Man",
+    "universe": "Marvel",
+    "image": "https://i.postimg.cc/xdk1Bm68/Spiderman.jpg",
+    "discription": ""
+},
+
+{
+    "id": 4,
+    "price": 110,
+    "bookTitle": "Fantastic Four",
+    "universe": "Marvel",
+    "image": "https://i.postimg.cc/mZ7tbQBF/Fantastic-Four.jpg",
+    "discription": ""
+},
+
+{
+    "id": 5,
+    "price": 130,
+    "bookTitle": "Star Wars",
+    "universe": "Marvel",
+    "image": "https://i.postimg.cc/pdgLvdSZ/Star-Wars.jpg",
+    "discription": ""
+},
+
+{
+    "id": 6,
+    "price": 115,
+    "bookTitle": "Justice League",
+    "universe": "DC",
+    "image": "https://i.postimg.cc/B6HQn09G/Justice-League.jpg",
+    "discription": ""
+},
+
+{
+    "id": 7,
+    "price": 140,
+    "bookTitle": "Batman Rebirth",
+    "universe": "DC",
+    "image": "https://i.postimg.cc/gJ0QbdW4/Batman.jpg",
+    "discription": ""
+},
+
+{
+    "id": 8,
+    "price": 140,
+    "bookTitle": "Superman",
+    "universe": "DC",
+    "image": "https://i.postimg.cc/Vs9kymWq/Superman.jpg",
+    "discription": ""
+},
+
+{
+    "id": 9,
+    "price": 120,
+    "bookTitle": "The Flash: Rebirth",
+    "universe": "DC",
+    "image": "https://i.postimg.cc/T1cdnJ37/The-Flash.jpg",
+    "discription": ""
+},
+
+{
+    "id": 10,
+    "price": 80,
+    "bookTitle": "Teen Titans",
+    "universe": "DC",
+    "image": "https://i.postimg.cc/sDVDsqTt/Teen-Titans.jpg",
+    "discription": ""
+}
+
+]
