@@ -6,7 +6,8 @@
     "bookTitle": "X-Men",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/QdC8W5Gm/X-Men.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -15,7 +16,8 @@
     "bookTitle": "Avengers",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/gkDjhmwz/Avengers.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -24,7 +26,8 @@
     "bookTitle": "Spider-Man",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/xdk1Bm68/Spiderman.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -33,7 +36,8 @@
     "bookTitle": "Fantastic Four",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/mZ7tbQBF/Fantastic-Four.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -42,7 +46,8 @@
     "bookTitle": "Star Wars",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/pdgLvdSZ/Star-Wars.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -51,7 +56,8 @@
     "bookTitle": "Justice League",
     "universe": "DC",
     "image": "https://i.postimg.cc/B6HQn09G/Justice-League.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -60,7 +66,8 @@
     "bookTitle": "Batman Rebirth",
     "universe": "DC",
     "image": "https://i.postimg.cc/gJ0QbdW4/Batman.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -69,7 +76,8 @@
     "bookTitle": "Superman",
     "universe": "DC",
     "image": "https://i.postimg.cc/Vs9kymWq/Superman.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -78,7 +86,8 @@
     "bookTitle": "The Flash: Rebirth",
     "universe": "DC",
     "image": "https://i.postimg.cc/T1cdnJ37/The-Flash.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -87,7 +96,8 @@
     "bookTitle": "Teen Titans",
     "universe": "DC",
     "image": "https://i.postimg.cc/sDVDsqTt/Teen-Titans.jpg",
-    "category": "Comic Book"
+    "category": "Comic Book",
+    "product": "Book"
 },
 
 {
@@ -96,7 +106,8 @@
     "bookTitle": "Fairyland",
     "universe": "",
     "image": "https://i.postimg.cc/wMDrXrqn/Fairyland.jpg",
-    "category": "Graphic Novel"
+    "category": "Graphic Novel",
+    "product": "Book"
 },
 
 {
@@ -105,7 +116,8 @@
     "bookTitle": "Invincible",
     "universe": "",
     "image": "https://i.postimg.cc/HWMF1rw3/Invincible.jpg",
-    "category": "Graphic Novel"
+    "category": "Graphic Novel",
+    "product": "Book"
 },
 
 {
@@ -114,6 +126,7 @@
     "bookTitle": "Umbrella Academy",
     "universe": "",
     "image": "https://i.postimg.cc/9X9SVKtc/Umbrella-Academy.jpg",
-    "category": "Graphic Novel"
+    "category": "Graphic Novel",
+    "product": "Book"
 }
 ]

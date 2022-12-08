@@ -1,8 +1,4 @@
-fetch('../Data/data.json')
-.then((response) => {
-    return response.json()
-})
-.then((data) => {
+let data = JSON.parse(localStorage.getItem('data'))
     let tableDisplay = document.querySelector('tbody')
     Object.keys(data).forEach((item) => {
         if(data[item]) {
@@ -12,12 +8,12 @@ fetch('../Data/data.json')
             <td>${data[item].id}</td>
             <td>${data[item].bookTitle}</td>
             <td>R${data[item].price}</td>
-            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-sharp fa-solid fa-pen-to-square"></i></button></td>
+            <td><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-sharp fa-solid fa-pen-to-square"></i></button></td>
+            <td><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-sharp fa-solid fa-trash"></i></button></td>
             </tr>
             `
         }
     })
-})
 
 let modalEdit = document.querySelector('#modalBody')
 
@@ -64,51 +60,45 @@ modalEdit.innerHTML +=
 </div>
 
 </div>
+
+
 <div class="row">
 
-<h6>Book Title</h6>
+    <h6>Book Title</h6>
 
-<div class="col">
-    
-    <input></input>
+    <div class="col">
 
-</div>
-<div class="col">
+        <input placeholder="Insert Title"></input>
+
+    </div>
     
-    <div class="dropdown">
-        <button class="btn btn-sm btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-        <div class="dropdown-menu">
-          <p>Black Panther</p>
-          <p>Dark Crisis</p>
-          <p>Fairyland</p>
+    <div class="col">
+        <div class="dropdown">
+            <button class="btn btn-sm btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false"></button>
+            <div class="dropdown-menu">
+                  <h5>Copy Title:</h5>
+                  <h6>Black Panther</h6>
+                  <h6>Dark Crisis</h6>
+                  <h6>Fairyland</h6>
+            </div>
         </div>
-      </div>
-    
-</div>
+    </div>
 
 </div>
+
 <div class="row">
 
 <h6>Price</h6>
 
 <div class="col">
 
-    <input></input>
-
-</div>
-<div class="col">
-
-    <div class="dropdown">
-        <button class="btn btn-sm btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-        <ul class="dropdown-menu">
-          <li>R110</li>
-          <li>R115</li>
-          <li>R130</li>
-        </ul>
-      </div>
+<input placeholder="Insert Price"></input>
 
 </div>
 
-</div>
+    </div>
+    
+    `
 
-`
+    

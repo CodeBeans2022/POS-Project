@@ -10,3 +10,11 @@
     /* display: flex;
     z-index: 1; */
 }
+
+.form-select{
+    width: 180px;
+}
+
+.adminTable{
+    border: 2px solid rgb(211, 77, 77);
+}
