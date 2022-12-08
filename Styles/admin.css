@@ -1,0 +1,12 @@
+.dropdownImg{
+    height: 300px;
+    width: 18rem;
+    object-fit: contain;
+
+}
+
+.dropdown-menu{
+    overflow-x: scroll;
+    /* display: flex;
+    z-index: 1; */
+}

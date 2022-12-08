@@ -6,7 +6,7 @@
     "bookTitle": "X-Men",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/QdC8W5Gm/X-Men.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -15,7 +15,7 @@
     "bookTitle": "Avengers",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/gkDjhmwz/Avengers.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -24,7 +24,7 @@
     "bookTitle": "Spider-Man",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/xdk1Bm68/Spiderman.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -33,7 +33,7 @@
     "bookTitle": "Fantastic Four",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/mZ7tbQBF/Fantastic-Four.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -42,7 +42,7 @@
     "bookTitle": "Star Wars",
     "universe": "Marvel",
     "image": "https://i.postimg.cc/pdgLvdSZ/Star-Wars.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -51,7 +51,7 @@
     "bookTitle": "Justice League",
     "universe": "DC",
     "image": "https://i.postimg.cc/B6HQn09G/Justice-League.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -60,7 +60,7 @@
     "bookTitle": "Batman Rebirth",
     "universe": "DC",
     "image": "https://i.postimg.cc/gJ0QbdW4/Batman.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -69,7 +69,7 @@
     "bookTitle": "Superman",
     "universe": "DC",
     "image": "https://i.postimg.cc/Vs9kymWq/Superman.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -78,7 +78,7 @@
     "bookTitle": "The Flash: Rebirth",
     "universe": "DC",
     "image": "https://i.postimg.cc/T1cdnJ37/The-Flash.jpg",
-    "discription": ""
+    "category": "Comic Book"
 },
 
 {
@@ -87,7 +87,33 @@
     "bookTitle": "Teen Titans",
     "universe": "DC",
     "image": "https://i.postimg.cc/sDVDsqTt/Teen-Titans.jpg",
-    "discription": ""
-}
+    "category": "Comic Book"
+},
 
+{
+    "id": 11,
+    "price": 110,
+    "bookTitle": "Fairyland",
+    "universe": "",
+    "image": "https://i.postimg.cc/wMDrXrqn/Fairyland.jpg",
+    "category": "Graphic Novel"
+},
+
+{
+    "id": 12,
+    "price": 115,
+    "bookTitle": "Invincible",
+    "universe": "",
+    "image": "https://i.postimg.cc/HWMF1rw3/Invincible.jpg",
+    "category": "Graphic Novel"
+},
+
+{
+    "id": 13,
+    "price": 130,
+    "bookTitle": "Umbrella Academy",
+    "universe": "",
+    "image": "https://i.postimg.cc/9X9SVKtc/Umbrella-Academy.jpg",
+    "category": "Graphic Novel"
+}
 ]
