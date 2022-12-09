@@ -6,7 +6,7 @@ Object.keys(newProduct).forEach((item) => {
 
         addToCheckout.innerHTML +=
         `
-        <div class="col-2" id="addItem">
+        <div class="col" id="addItem">
 
         <div class="card" style="width: 18rem;">
                     <img src=${newProduct[item].image} class="card-img-top" alt="...">
