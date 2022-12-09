@@ -9,5 +9,5 @@ fetch('../Data/data.json')
 let dataJson = JSON.parse(localStorage.getItem('data'))
 console.log(dataJson)
 
-let newProduct = [];
-localStorage.setItem('myItemData', JSON.stringify(newProduct))
+// let newProduct = [];
+// localStorage.setItem('myItemData', JSON.stringify(newProduct))

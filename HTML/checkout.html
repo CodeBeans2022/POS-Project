@@ -25,8 +25,6 @@
                 <li><a href="/HTML/products.html">Products</a></li>
                 <li><a href="/HTML/admin.html">Admin</a></li>
                 <li><a href="/HTML/checkout.html">Checkout</a></li>
-                <button type="button" class="btn btn-danger"><i class="fa-sharp fa-solid fa-cart-shopping"></i><span
-                        class="badge text-bg-secondary">0</span></button>
 
             </ul>
 
@@ -57,53 +55,47 @@
         </div>
     </nav>
 
-    <section id="product">
+    <div class="container pt-4" id="productsAndCart">
 
-        <div class="container">
+        <div class="row" id="dataCalculation">
 
-            <div class="row">
+            <div class="col">
 
-                <div class="col-6">
+                <div class="container">
 
-                    <div class="container">
+                    <div class="row" id="cart">
 
-                        <div class="row" id="productDisplay">
+                        <div class="col m-1">
 
-                            <div class="col " id="addToCheckout">
+                            <h4>Items:</h4>
+                            <div class="col" id="nameOfItems"></div>
 
-                            </div>
+                        </div>
+
+                        <div class="col m-1">
+
+                            <h4>Amount:</h4>
+                            <div class="col" id="priceOfItem"></div>
+
+                        </div>
+
+                        <div class="col-12">
+
+                            <h4>Total:</h4>
+                            <div class="col" id="totalOfItem"></div>
 
                         </div>
 
                     </div>
 
                 </div>
+            </div>
 
-                <div class="col-6" id="dataCalculation">
+            <div class="col" id="productDisplay">
 
-                    <div class="container">
+                <div class="container">
 
-                        <div class="row" id="cart">
-
-                            <div class="col m-1">
-                
-                                <h4>Items:</h4>
-                
-                            </div>
-                
-                            <div class="col m-1">
-                
-                                <h4>Amount:</h4>
-                
-                            </div>
-                
-                            <div class="col">
-                
-                                <h4>Total:</h4>
-                
-                            </div>
-                
-                        </div>
+                    <div class="row justify-content-center" id="addToCheckout">
 
                     </div>
 
@@ -112,8 +104,8 @@
             </div>
 
         </div>
+    </div>
 
-    </section>
 
     <script src="/Script/checkout.js"></script>
     <script src="https://kit.fontawesome.com/850ca6a355.js"></script>

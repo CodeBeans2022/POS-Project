@@ -66,12 +66,12 @@
 
         <div class="row m-4">
 
-            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Item</button>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalAddItem">Add Item</button>
 
         </div>
 
 <div class="row">
-    <table class="table table-danger adminTable">
+    <table class="table adminTable">
         <thead>
             <tr>
                 <th>ID</th>
@@ -86,15 +86,15 @@
 </div>
 
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modalEdit" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Comic or Graphic Novel</h1>
+                    <h1 class="modal-title fs-5">Edit Comic or Graphic Novel</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="container modal-body" id="modalBody"></div>
+                <div class="container modal-body" id="modalBodyForEdit"></div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger">Save Changes</button>
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
@@ -102,6 +102,24 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modalAddItem" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Edit Comic or Graphic Novel</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="container modal-body" id="modalBodyForAddItem"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">Save Changes</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/850ca6a355.js"></script>
     <script src="/Script/admin.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

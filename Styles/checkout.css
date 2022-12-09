@@ -1,35 +1,26 @@
-#product{
-    background-color: lightcoral;
-    padding: 5px 20px 15px 20px;
-    border-radius: 3px;
-    height: fit-content;
-  }
 
-  #cart {
-    background-color: rgb(235, 152, 152);
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    width: 300px;
-    height: 567px;
-  }
-
-  #addToCheckout{
-
-  }
-
-#productDisplay{
-  border: 1px solid lightgrey; 
- width: fit-content; 
- padding: 20px;
-}  
-
-.card{
-  margin: 15px;
+#cart {
+  background-color: rgba(230, 230, 230, 0.341);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  width: 400px;
+  height: 567px;
 }
 
-.dataCalculation{
-  float: right;
+#productDisplay {
+  background-color: rgba(230, 230, 230, 0.341);
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  padding: 20px;
 }
 
-  
+.card {
+  margin: 5px;
+}
+
+#addToCheckout{
+  height: 80vh;
+  overflow-y: scroll;
+
+}

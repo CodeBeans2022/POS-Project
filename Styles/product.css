@@ -8,10 +8,28 @@ img{
 
 button{
     height: 40px;
+    width: 100%;
 }
 
 .card{
     margin-right: 15px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(230, 230, 230, 0.341);
+}
+
+.card-img-top{
+    object-fit: contain;
+}
+
+#sortBtns button{
+    font-size: 20px;
+    height: 40px;
+    width: 15rem;
+}
+
+#sortLabel{
+    font-size: 25px;
 }
 
 
