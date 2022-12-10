@@ -195,13 +195,15 @@ let newProductAdded = function (id, price, bookTitle,image, category){
   this.price = price;
   this.bookTitle =  bookTitle;
   this.image = image;
-  this.category;
+  this.category = category;
 };
 
 let productAdded = document.querySelector('#addNewItem')
 productAdded.addEventListener('click', (e) => {
   
 })
+
+
 
 
 
