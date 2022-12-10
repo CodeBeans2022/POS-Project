@@ -2,20 +2,45 @@ body{
   overflow-x: hidden;
 }
 .carousel img {
-  height: 240px;
+  height: 170px;
   width: 100%;
   object-fit: cover;
 }
 
-.landing {
+.carLanding {
   margin: 0 !important;
   padding: 0 !important;
+  
 }
 
-.landing .col{
+.carLanding .col{
 padding: 0;
 }
 
 .carousel{
-  height: 240px;
+  height: 170px;
+}
+
+/* #landing {
+  height: 100vh;
+} */
+
+#homeForm{
+  background-color: rgba(230, 230, 230, 0.341);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.space {
+  margin-top: 80px;
+}
+.placeholder1 {
+  background-color: rgba(230, 230, 230, 0.341);
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
 }

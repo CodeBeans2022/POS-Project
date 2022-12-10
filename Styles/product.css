@@ -32,6 +32,13 @@ img{
     font-size: 25px;
 }
 
+@media screen and (max-width: 768px){
+    #sortBtns button{
+        font-size: 15px;
+        height: 40px;
+        width: 8rem;
+    }
+}
 
 
 

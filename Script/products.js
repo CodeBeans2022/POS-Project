@@ -2,7 +2,7 @@ let data = JSON.parse(localStorage.getItem('data'));
 
 let marvelDisplay = document.querySelector('#Marvel');
 Object.keys(data).forEach((item) => {
-    if (data[item] && data[item].category == 'Marvel') {
+    if (data[item] && data[item].category == 'Marvel Comics') {
         marvelDisplay.innerHTML +=
             `                                                                                                                   
             <div class="card mb-4">
@@ -19,7 +19,7 @@ Object.keys(data).forEach((item) => {
 
 let dcDisplay = document.querySelector('#DC');
 Object.keys(data).forEach((item) => {
-    if (data[item] && data[item].category == 'DC') {
+    if (data[item] && data[item].category == 'DC Comics') {
         dcDisplay.innerHTML +=
             `
                 <div class="card mb-4">
@@ -37,7 +37,7 @@ Object.keys(data).forEach((item) => {
 
 let graphicNovelDisplay = document.querySelector('#Novel');
 Object.keys(data).forEach((item) => {
-    if (data[item] && data[item].category == 'Graphic Novel') {
+    if (data[item] && data[item].category == 'Graphic Novels') {
         graphicNovelDisplay.innerHTML +=
             `
                 <div class="card mb-4">
@@ -68,6 +68,19 @@ Object.keys(addItem).forEach((item) => {
         alert('Item Added To Checkout!')
         })
 })
+
+
+let filterItems = [...document.querySelectorAll('#btnComic')] ;
+Object.keys(filterItems).forEach((item) => {
+    filterItems[item].addEventListener('click', (e) => {
+        let itemsFiltered = data.filter((filter) => {
+            if(filter.category == filterItems[item].innerText){
+                return filter;
+                console.log(filter);
+            }
+        })
+    })
+})   
 
 
 
