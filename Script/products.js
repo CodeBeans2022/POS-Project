@@ -57,27 +57,28 @@ Object.keys(data).forEach((item) => {
 // let addItemToCart = document.querySelectorAll('#addItemToCart')
 
 // Event Listener for Add Button 
-let newProduct = JSON.parse(localStorage.getItem('myItemData'));
+let newProduct = JSON.parse(localStorage.getItem('checkoutLocalStorage'));
 
 Object.keys(addItem).forEach((item) => {
     addItem[item].addEventListener('click', (e) => {
         console.log('click')
         console.log(data[item]);
         newProduct.push(data[item]);
-        localStorage.setItem('myItemData', JSON.stringify(newProduct));
-        prompt('Comic')
+        localStorage.setItem('checkoutLocalStorage', JSON.stringify(newProduct));
+        alert('Item Added To Checkout!')
         })
 })
 
-let itemData = JSON.parse(localStorage.getItem('myItemData'));
 
 
-Object.keys(addItem).forEach((item) => {
-    addItem[item].addEventListener('click', (e) => {
-        itemData.push(data[item]);
-        localStorage.setItem('myItemData', JSON.stringify(itemData));
-    })
-})
+// let itemData = JSON.parse(localStorage.getItem('data'));
+
+// Object.keys(addItem).forEach((item) => {
+//     addItem[item].addEventListener('click', (e) => {
+//         itemData.push(data[item]);
+//         localStorage.setItem('data', JSON.stringify(itemData));
+//     })
+// })
 
 
 

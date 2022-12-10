@@ -1,7 +1,7 @@
 [
     
 {
-    "id": 1,
+    "id":"One",
     "price": 80,
     "bookTitle": "X-Men",
     "image": "https://i.postimg.cc/QdC8W5Gm/X-Men.jpg",
@@ -9,7 +9,7 @@
 },
 
 {
-    "id": 2,
+    "id":"Two",
     "price": 120,
     "bookTitle": "Avengers",
     "image": "https://i.postimg.cc/gkDjhmwz/Avengers.jpg",
@@ -17,7 +17,7 @@
 },
 
 {
-    "id": 3,
+    "id":"Three",
     "price": 80,
     "bookTitle": "Spider-Man",
     "image": "https://i.postimg.cc/xdk1Bm68/Spiderman.jpg",
@@ -25,7 +25,7 @@
 },
 
 {
-    "id": 4,
+    "id":"Four",
     "price": 110,
     "bookTitle": "Fantastic Four",
     "image": "https://i.postimg.cc/mZ7tbQBF/Fantastic-Four.jpg",
@@ -33,7 +33,7 @@
 },
 
 {
-    "id": 5,
+    "id":"Five",
     "price": 130,
     "bookTitle": "Star Wars",
     "image": "https://i.postimg.cc/pdgLvdSZ/Star-Wars.jpg",
@@ -41,39 +41,7 @@
 },
 
 {
-    "id": 6,
-    "price": 115,
-    "bookTitle": "Justice League",
-    "image": "https://i.postimg.cc/B6HQn09G/Justice-League.jpg",
-    "category": "DC"
-},
-
-{
-    "id": 7,
-    "price": 140,
-    "bookTitle": "Batman Rebirth",
-    "image": "https://i.postimg.cc/gJ0QbdW4/Batman.jpg",
-    "category": "DC"
-},
-
-{
-    "id": 8,
-    "price": 140,
-    "bookTitle": "Superman",
-    "image": "https://i.postimg.cc/Vs9kymWq/Superman.jpg",
-    "category": "DC"
-},
-
-{
-    "id": 9,
-    "price": 120,
-    "bookTitle": "The Flash: Rebirth",
-    "image": "https://i.postimg.cc/T1cdnJ37/The-Flash.jpg",
-    "category": "DC"
-},
-
-{
-    "id": 10,
+    "id": "Six",
     "price": 80,
     "bookTitle": "Teen Titans",
     "image": "https://i.postimg.cc/sDVDsqTt/Teen-Titans.jpg",
@@ -81,7 +49,55 @@
 },
 
 {
-    "id": 11,
+    "id":"Seven",
+    "price": 115,
+    "bookTitle": "Justice League",
+    "image": "https://i.postimg.cc/B6HQn09G/Justice-League.jpg",
+    "category": "DC"
+},
+
+{
+    "id":"Eight",
+    "price": 140,
+    "bookTitle": "Batman Rebirth",
+    "image": "https://i.postimg.cc/gJ0QbdW4/Batman.jpg",
+    "category": "DC"
+},
+
+{
+    "id":"Nine",
+    "price": 140,
+    "bookTitle": "Superman",
+    "image": "https://i.postimg.cc/Vs9kymWq/Superman.jpg",
+    "category": "DC"
+},
+
+{
+    "id":"Ten",
+    "price": 120,
+    "bookTitle": "The Flash: Rebirth",
+    "image": "https://i.postimg.cc/T1cdnJ37/The-Flash.jpg",
+    "category": "DC"
+},
+
+{
+    "id":"Eleven",
+    "price": 99,
+    "bookTitle": "Thor",
+    "image": "https://i.postimg.cc/LszMZRGF/Thor.jpg",
+    "category": "Graphic Novel"
+},
+
+{
+    "id": "Twelve",
+    "price": 110,
+    "bookTitle": "Wonder Woman",
+    "image": "https://i.postimg.cc/d0MY1DH9/Wonder-Woman.jpg",
+    "category": "Graphic Novel"
+},
+
+{
+    "id": "Thirteen",
     "price": 110,
     "bookTitle": "Fairyland",
     "image": "https://i.postimg.cc/wMDrXrqn/Fairyland.jpg",
@@ -89,7 +105,7 @@
 },
 
 {
-    "id": 12,
+    "id": "Fourteen",
     "price": 115,
     "bookTitle": "Invincible",
     "image": "https://i.postimg.cc/HWMF1rw3/Invincible.jpg",
@@ -97,7 +113,7 @@
 },
 
 {
-    "id": 13,
+    "id": "Fifteen",
     "price": 130,
     "bookTitle": "Umbrella Academy",
     "image": "https://i.postimg.cc/9X9SVKtc/Umbrella-Academy.jpg",

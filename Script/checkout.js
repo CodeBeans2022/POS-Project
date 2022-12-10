@@ -1,4 +1,5 @@
-let newProduct = JSON.parse(localStorage.getItem('myItemData'));
+let newProduct = JSON.parse(localStorage.getItem('checkoutLocalStorage'));
+
 let addToCheckout = document.querySelector('#addToCheckout');
 console.log(newProduct)
 Object.keys(newProduct).forEach((item) => {   
@@ -19,7 +20,7 @@ Object.keys(newProduct).forEach((item) => {
     };
 })  
 
-let itemData = JSON.parse(localStorage.getItem('myItemData'));
+let itemData = JSON.parse(localStorage.getItem('checkoutLocalStorage'));
 
 console.log(itemData)
 
@@ -45,4 +46,17 @@ Object.keys(itemData).forEach((item) => {
     }
 })
 
-let totalOfItems = document.querySelector('totalOfItems');
+let totalOfItems = document.querySelector('#totalOfItem');
+
+function addAmounts(){
+    let itemsTotal = newProduct.reduce((item1, item2) => {
+        return (item1 + item2.price)
+}, 0);
+
+
+totalOfItems.innerHTML +=
+`
+<h6>R${itemsTotal}</h6>
+`
+}
+addAmounts();

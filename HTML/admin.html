@@ -66,42 +66,28 @@
 
         <div class="row m-4">
 
-            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalAddItem">Add Item</button>
+            <button type="button" class="btn btn-danger" id="addNewItem" data-bs-toggle="modal" data-bs-target="#modalAddItem">Add
+                Item</button>
 
         </div>
 
-<div class="row">
-    <table class="table adminTable">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Book Title</th>
-                <th>Price</th>
-                <th>Edit</th>
-                <th>Delete</th>
-            </tr>
-        </thead>
-        <tbody class="tbody-danger"></tbody>
-    </table>
-</div>
+        <div class="row">
+            <table class="table adminTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Book Title</th>
+                        <th>Price</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody-danger"></tbody>
+            </table>
+        </div>
 
     </div>
-    <!-- Modal 1 -->
-    <div class="modal fade" id="modalEdit" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5">Edit Comic or Graphic Novel</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="container modal-body" id="modalBodyForEdit"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger">Save Changes</button>
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Modal 2 -->
     <div class="modal fade" id="modalAddItem" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
@@ -111,7 +97,89 @@
                     <h1 class="modal-title fs-5">Edit Comic or Graphic Novel</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="container modal-body" id="modalBodyForAddItem"></div>
+                <div class="container modal-body" id="modalBodyForAddItem">
+
+                    <div class="row">
+
+                        <h6>Picture</h6>
+                        
+                        <div class="col">
+                        <input placeholder="Insert Link"></input>
+                        </div>
+                        <div class="col">
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                            <div class="dropdown-menu">
+                        
+                            <div class="card" style="width: 18rem;">
+                            <img src="/Assets/Black Panther.jpg" class="card-img-top dropdownImg" alt="...">
+                            <div class="card-body">
+                              <p>Copy link:</p>
+                              <p>https://i.postimg.cc/0NH32qBy/Black-Panther.jpg</p>
+                            </div>
+                          </div>
+                        
+                          <div class="card" style="width: 18rem;">
+                          <img src="/Assets/DarkCrisis.jpg" class="card-img-top dropdownImg" alt="...">
+                          <div class="card-body">
+                            <p>Copy link:</p>
+                            <p>https://i.postimg.cc/LXYWJ0cB/Dark-Crisis.jpg</p>
+                          </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem;">
+                          <img src="/Assets/Fairyland.jpg" class="card-img-top dropdownImg" alt="...">
+                          <div class="card-body">
+                            <p>Copy link:</p>
+                            <p>https://i.postimg.cc/cCf5mt4v/Fairyland.jpg</p>
+                          </div>
+                        </div>
+                        
+                            </div>
+                          </div>
+                        </div>
+                        
+                        </div>
+                        
+                        
+                        <div class="row">
+                        
+                            <h6>Book Title</h6>
+                        
+                            <div class="col">
+                        
+                                <input placeholder="Insert Title"></input>
+                        
+                            </div>
+                            
+                            <div class="col">
+                                <div class="dropdown">
+                                    <button class="btn btn-sm btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"></button>
+                                    <div class="dropdown-menu">
+                                          <h5>Copy Title:</h5>
+                                          <h6>Black Panther</h6>
+                                          <h6>Dark Crisis</h6>
+                                          <h6>Fairyland</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="row">
+                        
+                        <h6>Price</h6>
+                        
+                        <div class="col">
+                        
+                        <input placeholder="Insert Price"></input>
+                        
+                        </div>
+                        
+                            </div>
+
+                </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger">Save Changes</button>
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
@@ -128,6 +196,3 @@
 </body>
 
 </html>
-
-
-
